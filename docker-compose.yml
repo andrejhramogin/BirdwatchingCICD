@@ -16,7 +16,7 @@ services:
   observationdata-service:
     image: andrejhr/observation:spring-plugin
     environment:
-      spring.datasource.url: jdbc:postgresql://postgres:5432/observation
+      spring.datasource.url: jdbc:postgresql://postgres:5432/postgres
     ports:
       - 8085:8080
     depends_on:
