@@ -12,7 +12,7 @@
 2. Просмотрите список имеющихся у Вас docker image с помощью команды:
    docker image ls
    В списке images, который появится после выполнения данной команды ложен быть image "andrejhr/observation:spring-plugin"
-3. Для дальнейшего создания и запуска контейнеров docker и observationdata создайте на диске директорию postgres. В ней создайте еще одну директорию postgres, а также скопируйте и поместите файл docker-compose.yml из данного репозитория (ссылка: 
+3. Для дальнейшего создания и запуска контейнеров docker и observationdata создайте на диске директорию postgres. В ней создайте еще одну директорию postgres, а также скопируйте и поместите файл docker-compose.yml из данного репозитория (ссылка: https://github.com/andrejhramogin/BirdwatchingCICD/commit/d7a3f143401cd1a195694e9e5ad676758b8ec6c2).
 
 
 
