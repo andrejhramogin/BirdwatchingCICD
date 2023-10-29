@@ -28,7 +28,8 @@ sudo docker image ls
 "andrejhr/observation:spring-plugin"
 - Для дальнейшего создания и запуска контейнеров docker и observationdata создайте 
 на диске директорию postgres. В ней создайте еще одну директорию postgres, а также 
-скопируйте и поместите файл docker-compose.yml из данного репозитория.
+скопируйте и поместите файл docker-compose.yml и файл init-multi-postgres-databases.sh
+из данного репозитория.
 
 - Для создания и запуска контейнеров в консоли перейдите в директорию 'postgres', 
 в которой находится файл docker-compose.yml и выполните команду: 
